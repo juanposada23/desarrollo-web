@@ -1,5 +1,4 @@
 
-
  h1 {
  	background: blue;
 	color: white;
@@ -8,11 +7,21 @@
   }
 
  h2 {
-    color: blue;
-	position:  relative;
+ 	position: relative;
+	color: blue;
 	top : 19px;
 	left: 100px;
   }
+
+ h3 {
+ 	display: inline-block;
+ 	width: 200px;
+ 	background: blue;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+ }
+
 
  .imagen1 {
  	display: inline-block;
@@ -38,9 +47,15 @@
     padding-top: 0px;
   }
 
-  h3 {
-  	color: blue;
-  }
+ table, th, td {
+  border: 1px solid black;
+ }
+ 
+ table th {
+ 	background: blue;
+ 	color: white;
+ }
+
 
   .yo{
   	position: relative;
@@ -84,4 +99,206 @@
    	display: block;
    	margin: 10px;
    }
+
+   .contenedorDibujo {
+   	position: relative;
+   	top: 50px;
+   	left: 30%;
+   }
+
+    .contenedorDibujo div {
+    	display: inline-block;
+         height: 600px;
+    }
+
+
+    .rojo {
+    	background: red;
+    }
+
+    .azul {
+    	background: blue;
+    }
+
+    .amarillo {
+    	background: yellow;
+    }
+
+    #rojo1 {
+    	width: 12px;
+    }
+
+    #azul1 {
+    	width: 12px;
+    }
+
+    #amarillo1 {
+    	width: 30px;
+    }
+
+     #rojo2 {
+    	width: 60px;
+    }
+
+     #azul2 {
+    	width: 144px;
+    }
+
+      #amarillo2 {
+    	width: 260px;
+    }
+
+    .encabezado {
+    	position: relative;
+    	display: inline;
+    	left: 30%;
+    	top: 40px;
+    	background: black;
+    }
+
+    .encabezado img {
+    	display: inline;
+    	width: 100px;
+    	height: 100px;
+    }
+
+    .encabezado h1 {
+    	position: relative;
+    	display: inline-block;
+    	background: red;
+    	color: white;
+    	bottom: 36px;
+    	padding: 8px;
+    	border-radius: 20px;
+    	right: 5px;
+    }
+
+    .contenedorAuto div{
+    	margin: 10px;
+    }
+
+    .contenido1 {
+    	display: inline-block;
+        position: absolute;
+    	left: 300px;
+    	width: 300px;
+    	height: 448px;
+    	border-radius: 20px;
+    	background: #CDCDCD;
+    	z-index: 2;
+    }
+
+    .marcasAuto {
+    	position: relative;
+    	text-align: center;
+    	font-size: 30px;
+    	bottom: 25px;
+    	color: black;
+    	background: #e5be01;
+        border-radius: 20px;
+        padding: 12px;
+    }
+
+    .fraseCarro{
+    	position: absolute;
+    	text-align: center;
+    	font-size: 30px;
+    	color: black;
+    	background: #e5be01;
+        border-radius: 20px;
+        padding: 12px;
+        width: 850px;
+        left: 310px;
+        bottom: 355px;
+    }
+
+    .contenido1 img{
+    	position: relative;
+    	display: block;
+    	bottom: 40px;
+    	left: 68px;
+    	width: 140px;
+    	height: 110px;
+    	margin: 10px;
+    }
+
+    .contenido2{
+        display: inline-block;
+        position: relative;
+    	left: 600px;
+    	width: 600px;
+    	top: 70px;
+    	font-size: 20px;
+    	border-radius: 20px;
+    	text-align: center;
+    	padding: 30px;
+    	background: #CDCDCD;
+    }
+
+    .contenido3{
+        display: inline-block;
+        position: relative;
+    	left: 583px;
+    	width: 150px;
+    	top: 70px;
+    	font-size: 20px;
+    	border-radius: 20px;
+    	text-align: center;
+    	padding: 30px;
+    	background: #CDCDCD;
+    }
+
+    #informacionPersonalA{
+    	position: relative;
+    	display: inline-block;
+    	background: #e5be01;
+    	text-align: center;
+    	color: black;
+    	padding: 10px;
+    	top: 40px;
+    	left: 300px;
+    	width: 1180px;
+    	font-size: 30px;
+    	border-radius: 70px;
+    }
+
+    .contenido4{
+    	display: inline-block;
+        position: relative;
+    	left: 600px;
+    	bottom: 112px;
+    	width: 600px;
+    	height: 315px;
+    	font-size: 20px;
+    	border-radius: 20px;
+    	text-align: center;
+    	padding: 30px;
+    	background: #CDCDCD;
+    }
+
+    .contenido4 img{
+    	display: inline-block;
+    	position: absolute;
+    	right: 160px;
+    	width: 300px;
+    	height: 180px;
+    	border-radius: 20px;
+    }
+    
+     #informacionPersonalAC{
+    	position: relative;
+    	display: inline-block;
+    	background: #e5be01;
+    	text-align: center;
+    	color: black;
+    	padding: 10px;
+    	bottom: 145px;
+    	left: 300px;
+    	width: 1180px;
+    	font-size: 30px;
+    	border-radius: 70px;
+    }
+
+
+ 
  
